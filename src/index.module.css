@@ -1,0 +1,101 @@
+html, body {
+    display: flex;
+    background-color: bisque;
+    margin: 0 auto;
+    padding: 2em 5em;
+    height: auto;
+}
+
+.pfp {
+    border-radius: 100%;
+    border: 0.3em solid #ffffff;
+    width: 10em;
+    height: 10em;
+}
+
+.topmenu {
+    border: 0.1em solid black;
+    color: #000000;
+    width: auto;
+    height: auto;
+    overflow: hidden;
+}
+
+.topmenusub {
+    justify-content: start;
+    border: 0.1em solid black;
+    display: flex;
+    flex-direction: row;
+}
+
+.topmenulink {
+    font-size: 1.5em;
+    border: 0.1em solid black;
+    size: 3em;
+    margin: auto 0;
+    padding: 0 3em;
+    color: #00ff00;
+}
+
+.canvas {
+    color: #000000;
+    margin: 0 5em;
+    margin-top: -2em;
+    border-radius: 0.5em;
+    background-color: blanchedalmond;
+    padding: 20px 20px 20px 20px;
+    height: auto;
+    box-shadow: 0.3em 0.3em 0.1em #888888;
+    overflow: hidden;
+}
+
+.canvasp {
+    font-size: 2em;
+}
+
+.container {
+    border: 0.1em solid black;
+    width: 90em;
+}
+
+.nograd {
+	background: hsl(33, 100%, 93%);
+    display: inline-block;
+    position: absolute;
+    padding: 5em, 5em;
+    height: 100%;
+    width: 100%;
+}
+
+.clearday {
+    background: #ffffff;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.clearnight {
+    background: #000000;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+body.clearsrise {
+    background: #ff0000;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+body.clearsset {
+    background: #ffffff;
+}
+
+body.cloudsday {
+    background: #ffffff;
+}
+
+body.cloudsnight {
+    background: #ffffff;
+}
