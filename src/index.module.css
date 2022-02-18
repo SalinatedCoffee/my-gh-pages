@@ -21,6 +21,10 @@ html, body {
     overflow: hidden;
 }
 
+.topmenu h1 {
+    color: blue;
+}
+
 .topmenusub {
     justify-content: start;
     border: 0.1em solid black;
@@ -35,6 +39,11 @@ html, body {
     margin: auto 0;
     padding: 0 3em;
     color: #00ff00;
+    transition: color 0.3s;
+}
+
+.topmenulink:hover {
+    color: #ff0000
 }
 
 .canvas {
@@ -50,7 +59,7 @@ html, body {
 }
 
 .canvasp {
-    font-size: 2em;
+    font-size: 2.5em;
 }
 
 .container {
