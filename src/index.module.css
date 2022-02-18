@@ -2,7 +2,7 @@ html, body {
     display: flex;
     background-color: bisque;
     margin: 0 auto;
-    padding: 2em 5em;
+    padding: 2em 2em;
     height: auto;
 }
 
@@ -59,12 +59,13 @@ html, body {
 }
 
 .canvasp {
-    font-size: 2.5em;
+    font-size: 1.5em;
 }
 
 .container {
     border: 0.1em solid black;
-    width: 90em;
+    width: 70em;
+    margin: auto;
 }
 
 .nograd {
