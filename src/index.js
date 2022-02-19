@@ -47,9 +47,13 @@ Nulla facilisi. Integer maximus odio a scelerisque semper. Etiam non massa vel s
 }
 
 ReactDOM.render(
+    <div className={styles.clearday}>
+        <div className={styles.bgcover}>
     <div className={styles.container}>
     <TopMenu/>
     <Canvas/>
+    </div>
+    </div>
     </div>,
     document.getElementById('root')
 )
