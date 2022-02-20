@@ -16,10 +16,12 @@ class TopMenu extends React.Component {
         })
         return (
             <div className={styles.topmenu}>
-                <h1>Title Text</h1>
+                <img className={styles.pfp} src={profile} alt='tooltip'></img>
                 <div className={styles.topmenusub}>
-                    <img className={styles.pfp} src={profile} alt='tooltip'></img>
-                    {links}
+                <h1>Title Text</h1>
+                <div className={styles.topmenulinkcluster}>
+                {links}
+                </div>
                 </div>
             </div>
         )
