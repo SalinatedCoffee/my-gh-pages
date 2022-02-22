@@ -4,7 +4,7 @@ import styles from './index.module.css';
 import profile from './coffeeprofile.jpg';
 import { HashRouter, Link } from 'react-router-dom';
 
-const MENU_LINKS = ['About', 'Blog', 'Repo']
+const MENU_LINKS = ['About', 'Blog', 'Repo', 'Misc']
 
 class TopMenu extends React.Component {
     
@@ -32,7 +32,7 @@ class Canvas extends React.Component {
     render() {
         return (
             <div className={styles.canvas}>
-                <p className={styles.canvasp}>
+                <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean viverra leo quis elit posuere congue. Morbi vehicula leo at facilisis fringilla. Quisque a lacus vitae libero dictum blandit. Fusce justo tortor, lobortis non vulputate eget, venenatis sit amet nisl. Nulla ullamcorper vulputate rhoncus. Quisque a faucibus augue, sed condimentum nisi. In vitae felis a ex ultrices posuere ac ac risus. Morbi consequat ultricies fringilla. Nam sit amet malesuada leo. Nam et faucibus est. Donec diam quam, hendrerit sit amet dui in, suscipit porta arcu. Duis quis tortor sagittis, auctor velit eu, consectetur eros.
 
 Aenean non blandit purus, ac bibendum felis. Morbi bibendum, augue vel iaculis bibendum, nulla libero fermentum turpis, in egestas felis ipsum et quam. Fusce id nunc elit. Duis euismod mi leo, eget lacinia orci tincidunt id. Morbi finibus, velit ac semper facilisis, ante ex tincidunt metus, in mattis mauris neque et metus. Phasellus porttitor, nisl a euismod viverra, mauris mi dignissim quam, sit amet sagittis ante purus ut elit. Nullam leo magna, fermentum sit amet diam vitae, auctor tincidunt est. Ut nec vestibulum dolor.
@@ -50,7 +50,7 @@ Nulla facilisi. Integer maximus odio a scelerisque semper. Etiam non massa vel s
 
 ReactDOM.render(
     <div className={styles.clearday}>
-        <div className={styles.bgcover}>
+    <div className={styles.bgcover}>
     <div className={styles.container}>
     <TopMenu/>
     <Canvas/>
