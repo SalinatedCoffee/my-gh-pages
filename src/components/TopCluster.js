@@ -1,6 +1,6 @@
 import React from 'react';
 import profile from '../coffeeprofile.jpg';
-import { HashRouter, Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 export default class TopCluster extends React.Component {
     render() {
@@ -17,9 +17,7 @@ export default class TopCluster extends React.Component {
                 <div className={this.props.styles.topmenusub}>
                 <h1>Title Text</h1>
                 <div className={this.props.styles.topmenulinkcluster}>
-                <HashRouter>
                 {links}
-                </HashRouter>
                 </div>
                 </div>
             </div>

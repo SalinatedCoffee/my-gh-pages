@@ -1,8 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import styles from './index.module.css';
-import profile from './coffeeprofile.jpg';
-import { HashRouter, Link } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import TopCluster from './components/TopCluster'
 import Post from './components/Post'
 
@@ -12,8 +11,13 @@ ReactDOM.render(
     <div className={styles.clearday}>
     <div className={styles.bgcover}>
     <div className={styles.container}>
+    
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
     <TopCluster menus={MENU_LINKS} styles={styles}/>
-    <Post styles={styles}/>
+        <Routes>
+            <Route path='/blog' element={<Post styles={styles}/>}/>
+        </Routes>
+    </BrowserRouter>
     </div>
     </div>
     </div>,
