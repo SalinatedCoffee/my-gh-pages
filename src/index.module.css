@@ -3,9 +3,13 @@
 html,
 body {
     font-family: 'Lato', sans-serif;
-    padding: 0 0;
-    margin: 0 0;
+    padding: 0;
+    margin: 0;
     height: 100vh;
+}
+
+* {
+    box-sizing: border-box;
 }
 
 .pfp {
@@ -81,6 +85,7 @@ body {
 .bgcover {
     background: linear-gradient(transparent 14%, 25%, #eeeeee 26%);
     padding: 1em 1em;
+    height: inherit;
 }
 
 .clearday {
@@ -89,6 +94,7 @@ body {
     background-size: 370% 370%;
     animation: gradient 5s ease 1;
     animation-fill-mode: forwards;
+    height: 100vh;
 }
 
 @keyframes gradient {
