@@ -5,6 +5,6 @@
     },
     {
         "title":"Markdown Test",
-        "content": "**This should be bold.**  *This should be italicised.*  ~~And this should be strikethrough.~~"
+        "content": "**This should be bold.**  \n*This should be italicised.*  \n~~And this should be strikethrough.~~"
     }
 ]

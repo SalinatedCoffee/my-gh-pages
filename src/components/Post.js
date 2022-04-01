@@ -9,7 +9,7 @@ export default class Post extends React.Component {
             <div className={this.props.styles.canvas}>
                 <h>{content[1].title}</h>
                 <p><ReackMarkdown children={content[1].content} remarkPlugins={[remarkGfm]}></ReackMarkdown></p>
-</div>
+            </div>
         )
     }
 }
